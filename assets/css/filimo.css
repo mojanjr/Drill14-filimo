@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../fonts/vazir/Vazirmatn-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/vazir/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+         url('../fonts/vazir/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+  font-size: 14px;
+}
+body {
+    direction: rtl; 
+    margin: 0;
+    background: #282828;
+    color: #fff;
+    font-family: Vazirmatn;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+a { 
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0 auto;
+}
+.box {
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  color:#fff;
+  padding: 60px 0;
+}
+.title {
+  font-size: 1.4rem;
+  padding: 30px 15px;
+}
+.box .wrapper {
+  color:#fff;
+  background: #3a3a3a;
+  border: 1px solid #33353a;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.box .row1 {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.box .row1 div {
+  font-size: 1.1rem;
+}
+.box .row1 i {
+  color: #1cb561;
+}
+.box .row2 p {
+  font-size: 1rem;
+  line-height: 15px;
+  color: #b6b6b6;
+  height: 0;
+  margin: 0;
+  transition: all 0.5s;
+  visibility: hidden;
+  overflow: hidden;
+}
+#plus1.plus1Expand,
+#plus2.plus2Expand,
+#plus3.plus3Expand,
+#plus4.plus4Expand,
+#plus5.plus5Expand {
+  transform: rotate(45deg);
+}
+#question1.question1Expand, 
+#question2.question2Expand,
+#question3.question3Expand,
+#question4.question4Expand,
+#question5.question5Expand {
+  color: #f4843f;
+}
+#description1.description1Expand,
+#description2.description2Expand,
+#description3.description3Expand,
+#description4.description4Expand,
+#description5.description5Expand {
+  height: 30px;
+  visibility: visible;
+}
+
+

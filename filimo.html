@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>filimo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/filimo.css"/>
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/css/brands.css" />
+        <link rel="stylesheet" href="assets/css/solid.css" />
+        <link rel="stylesheet" href="assets/css/regular.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="title">سوالات متداول</div>
+                <div class="box1 wrapper" onclick="changeItems1()">
+                    <div class="row1">
+                        <div id="question1">مجری مجموعه مهمونی کیست؟</div>
+                        <i id="plus1" class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="row2">
+                        <p id="description1">مجری این مجموعه ایرج طهماسب است.</p>
+                    </div>
+                </div>
+                <div class="box2 wrapper" onclick="changeItems2()">
+                    <div class="row1">
+                        <div id="question2">چه کسانی در مجموعه مهمونی بازی میکنند؟</div>
+                        <i id="plus2" class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="row2">
+                        <p id="description2">علی زرمهری ، سهیل رهبر زارع، سارا صبری و احمد فیاض در این مجموعه ایفای نقش دارند.</p>
+                    </div>
+                </div>
+                <div class="box3 wrapper" onclick="changeItems3()">
+                    <div class="row1">
+                        <div id="question3">صداپیشه شخصیت بچه در مجموعه مهمونی کیست؟</div>
+                        <i id="plus3" class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="row2">
+                        <p id="description3">هوتن شکیبا صداپیشگی شخصیت بچه را برعهده دارد.</p>
+                    </div>
+                </div>
+                <div class="box4 wrapper" onclick="changeItems4()">
+                    <div class="row1">
+                        <div id="question4">صداپیشگان مجموعه مهمونی چه کسانی هستند؟</div>
+                        <i id="plus4" class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="row2">
+                        <p id="description4">کاظم سیاحی ، هوتن شکیبا ، سهیل مستجابیان ، بهادر مالکی ، الی امامی ، امیر ادیب و نازنین شعبانی صداپیشگان این مجموعه هستند.</p>
+                    </div>
+                </div>
+                <div class="box5 wrapper" onclick="changeItems5()">
+                    <div class="row1">
+                        <div id="question5">مجموعه مهمونی 2 را از کجا تماشا کنیم؟</div>
+                        <i id="plus5" class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="row2">
+                        <p id="description5">این مجموعه از پلتفرم فیلیمو قابل مشاهده است.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function changeItems1() {
+                document.getElementById("question1").classList.toggle("question1Expand");
+                document.getElementById("plus1").classList.toggle("plus1Expand");
+                document.getElementById("description1").classList.toggle("description1Expand");
+            }
+            function changeItems2() {
+                document.getElementById("question2").classList.toggle("question2Expand");
+                document.getElementById("plus2").classList.toggle("plus2Expand");
+                document.getElementById("description2").classList.toggle("description2Expand");
+            }
+            function changeItems3() {
+                document.getElementById("question3").classList.toggle("question3Expand");
+                document.getElementById("plus3").classList.toggle("plus3Expand");
+                document.getElementById("description3").classList.toggle("description3Expand");
+            }
+            function changeItems4() {
+                document.getElementById("question4").classList.toggle("question4Expand");
+                document.getElementById("plus4").classList.toggle("plus4Expand");
+                document.getElementById("description4").classList.toggle("description4Expand"); 
+            }
+            function changeItems5() {
+                document.getElementById("question5").classList.toggle("question5Expand");
+                document.getElementById("plus5").classList.toggle("plus5Expand");
+                document.getElementById("description5").classList.toggle("description5Expand");
+            }
+        </script>
+    </body>
+</html>
